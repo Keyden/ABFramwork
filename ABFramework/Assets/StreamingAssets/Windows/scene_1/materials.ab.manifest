@@ -1,18 +1,21 @@
 ManifestFileVersion: 0
-CRC: 773152799
+CRC: 241050934
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: df03b68cf1ee07b16ccccb3ad6777380
+    Hash: cdace0caf9664e191c3e2cd269180d12
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 51a16e16d5113854a16091e54ae5bb0d
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
 HashAppended: 0
 ClassTypes:
 - Class: 21
+  Script: {instanceID: 0}
+- Class: 28
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
 Assets:
 - Assets/AB_Res/Scene_1/Materials/Floor.mat
-Dependencies: []
+Dependencies:
+- E:/UnityProject/ABFramwork/ABFramework/Assets/StreamingAssets/Windows/scene_1/textures.ab
