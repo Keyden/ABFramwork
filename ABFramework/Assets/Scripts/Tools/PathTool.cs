@@ -42,7 +42,7 @@ namespace ABFW{
             return strReturnPlatformPath;
         }
 
-        private static string GetPlatformName()
+        public static string GetPlatformName()
         {
             string strReturnPlatformName = string.Empty;
 
@@ -79,7 +79,6 @@ namespace ABFW{
                 case RuntimePlatform.WindowsEditor:
                 case RuntimePlatform.WindowsPlayer:
                     strReturnWWWPath = "file://" + GetABOutPath();
-                    //strReturnWWWPath =  GetABOutPath();
                     break;
 
                 case RuntimePlatform.Android:

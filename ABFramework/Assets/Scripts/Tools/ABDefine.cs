@@ -13,7 +13,7 @@ namespace ABFW{
     public class ABDefine 
     {
         /*框架常量*/
-
+        public static string ASSETBUNDLW_MANIFEST = "AssetBundleManifest";
         
 
     }

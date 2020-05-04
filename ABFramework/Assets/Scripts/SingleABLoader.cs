@@ -55,7 +55,7 @@ namespace ABFW{
                     }
                     else
                     {
-                        Debug.LogError("abObj == null, results.Length:" + results.Length);
+                        Debug.LogError("abObj == null, results.Length:" + results.Length+ ",_ABDownLoadPath:"+ _ABDownLoadPath);
                     }
                 }
             }

@@ -60,8 +60,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ABManifestLoader.cs" />
+    <Compile Include="Assets\Scripts\ABRelation.cs" />
+    <Compile Include="Assets\Scripts\AssetBundleMgr.cs" />
     <Compile Include="Assets\Scripts\AssetLoader.cs" />
+    <Compile Include="Assets\Scripts\MultiABMgr.cs" />
     <Compile Include="Assets\Scripts\SingleABLoader.cs" />
+    <Compile Include="Assets\Scripts\Test\Test_ABToolFramework.cs" />
     <Compile Include="Assets\Scripts\Test\Test_SingleABLoader.cs" />
     <Compile Include="Assets\Scripts\Tools\ABDefine.cs" />
     <Compile Include="Assets\Scripts\Tools\PathTool.cs" />
