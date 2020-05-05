@@ -70,6 +70,9 @@
     <Compile Include="Assets\Scripts\Test\Test_SingleABLoader.cs" />
     <Compile Include="Assets\Scripts\Tools\ABDefine.cs" />
     <Compile Include="Assets\Scripts\Tools\PathTool.cs" />
+    <None Include="Assets\PaoKu_Res\Models\Model\Player\Vampire-InGame\AnimationFrame.txt" />
+    <None Include="Assets\PaoKu_Res\Models\Model\Player\Vampire-InGame\Animation_Frame.txt" />
+    <None Include="Assets\PaoKu_Res\Shader\Curved.shader" />
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>E:/UnityProject/ABFramwork/ABFramework/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>

@@ -84,6 +84,9 @@ namespace ABFW{
                 case RuntimePlatform.Android:
                     strReturnWWWPath = "jar:file://" + GetABOutPath();
                     break;
+                case RuntimePlatform.IPhonePlayer:
+                    strReturnWWWPath = GetABOutPath() + "/Raw/";
+                    break;
 
                 default:break;
             }    

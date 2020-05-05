@@ -93,7 +93,7 @@ namespace ABFW{
         /// <returns></returns>
         private IEnumerator LoadReference(string abName,string refABName)
         {
-            //ab包已经加载
+            //ab依赖包已经加载，依赖包的引用包就是它自己
             if (_DicABRelaton.ContainsKey(abName))
             {
                 ABRelation tmpABRelationObj = _DicABRelaton[abName];
@@ -101,6 +101,8 @@ namespace ABFW{
             }
             else
             {
+                //依赖包未加载，就直接添加引用包，加载依赖包
+
                 ABRelation tmpABRelationObj = new ABRelation(abName);
                 tmpABRelationObj.AddReference(refABName);
                 _DicABRelaton.Add(abName, tmpABRelationObj);
